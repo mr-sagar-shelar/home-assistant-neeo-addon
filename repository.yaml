@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: Home Assistant Neeo Example
+url: 'https://github.com/sagar-sb/home-assistant-neeo-addon.git'
+maintainer: Sagar Shelar <shaggy.shelar@gmail.com>
