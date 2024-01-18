@@ -1,10 +1,10 @@
 {
   "slug": "home_assistant_neeo_addon",
   "name": "Home Assistant Neeo Addon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "stage": "stable",
   "description": "Home Assistant Neeo Addon",
-  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "arch": ["armhf"],
   "startup": "services",
   "boot": "auto",
   "ports": {

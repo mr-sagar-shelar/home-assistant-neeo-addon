@@ -1,5 +1,7 @@
 #!/usr/bin/with-contenv bashio
-set -e
+
+echo "Hello world from neeo add-on!"
+# set -e
 
 echo Starting Neeo Addon!
 node -v
