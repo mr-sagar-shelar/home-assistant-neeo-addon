@@ -11,7 +11,6 @@ RUN apk add --no-cache \
     npm
 
 COPY package.json /
-COPY index.js /
 COPY devices/ /devices/
 COPY lib/ /lib/
 RUN cd / && npm install
