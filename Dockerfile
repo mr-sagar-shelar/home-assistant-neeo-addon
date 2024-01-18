@@ -8,7 +8,7 @@ FROM $BUILD_FROM
 
 RUN apk add --no-cache \
     nodejs \
-    npm \
+    npm
 
 COPY package.json /
 COPY index.js /
