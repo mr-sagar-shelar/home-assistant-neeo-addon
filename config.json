@@ -1,7 +1,7 @@
 {
   "slug": "home_assistant_neeo_addon",
   "name": "Home Assistant Neeo Addon",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "stage": "stable",
   "description": "Home Assistant Neeo Addon",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
@@ -15,9 +15,11 @@
   },
   "map": [],
   "options": {
-    "refresh_token": "Generate by calling 'npx -p ring-client-api ring-auth-cli' on your Mac after installing npm"
+    "refresh_token": "Generate by calling 'npx -p ring-client-api ring-auth-cli' on your Mac after installing npm",
+    "device_ip": "IP Address Of Sonoff Device"
   },
   "schema": {
-    "refresh_token": "str"
+    "refresh_token": "str",
+    "device_ip": "str"
   }
 }
